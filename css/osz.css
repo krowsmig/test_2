@@ -57,12 +57,12 @@
 .img_title_3_scroll .pos_rel { width:100vw;  }
 .img_title_3_scroll .for_fixed .pos_rel { width: 100vw; }
 .img_title_3_scroll .extra { box-sizing:border-box; padding-left:0; }
-.img_title_3_scroll .extra .ext_0 { height:auto; line-height: 0; padding: 120px 0 150px }
-.bnr_bg { transform: rotate(10deg) translate(80px, -25px)}
-.bnr_md { transform: rotate(-5deg) translate(40px, 0px) }
-.bnr_sml { transform: rotate(5deg) translate(-10px, -40px) }
-.bnr_fmd { transform: rotate(-15deg) translate(-40px, -32px)  }
-
+.bnr_bg { transform: rotate(10deg) translate(60px, -25px)}
+.bnr_md { transform: rotate(-5deg) translate(20px, 0px) }
+.bnr_sml { transform: rotate(5deg) translate(-20px, -40px) }
+.bnr_fmd { transform: rotate(-15deg) translate(-60px, -32px)  }
+.img_title_3_scroll .extra .ext_0  { height:auto; line-height: 0; padding: 120px 0 150px; position: relative; height: 668px; box-sizing: border-box; position: relative; }
+.bnr_div {min-width: 1000px; margin: 0 auto; position: absolute; top: 160px; margin-left: -500px; left: 50%;}
 .img_title_3_scroll .for_fixed .mob_img { overflow: visible; border-color: #c3c3c3; padding: 360px 10px 0; box-sizing: border-box; background: none; border-width:1px; width:240px; height: 520px }
 .img_title_3_scroll .for_fixed .mob_img h2 { position:absolute; top: -50px; text-align:center; left:0; width:100%; font-size:18px }
 .img_title_3_scroll .for_fixed .pos_ab { width:240px; height:520px; margin-left: -120px; top: auto; bottom: 50%; margin-bottom: -230px; }
@@ -1149,6 +1149,8 @@ body.open .nav .burger a span {
     #img_title_2 .scroll_div_2 ul li .lyt_img { height: 500px; }
     #img_title_4 .layout_div .cont_div li p { font-size:14px }
     #img_title_2 .scroll_div_2 ul li .des { height:auto }
+
+    .img_title_3_scroll .bnr { width: 172px; height: 319px; background-size: 171px; }
 }
 
 @media screen and (max-width:600px) {
@@ -1216,7 +1218,7 @@ body.open .nav .burger a span {
     }
     #contents .fnt_30,
     #img_title_3 .content_div .des,
-    .img_title_div>div>.des,
+    .img_title_div>div>.des, .img_title_div .text_div .des,
     .layout_div .li_1 .fnt_14 {
         width: 100%;
         text-align: left;
@@ -1341,6 +1343,9 @@ body.open .nav .burger a span {
 }
 
 @media screen and (max-width:460px) {
+    .img_title_3_scroll .extra .ext_0 { height: 568px }
+    .img_title_3_scroll .bnr { margin-left:-20px }
+    .img_title_3_scroll .bnr_bg { margin-left: 20px }
     .pd_tp_100 { padding-top: 70px; }
     .fnt_div { margin-top: 70px }
     .fnt_div { height: 410px; }
@@ -1379,7 +1384,7 @@ body.open .nav .burger a span {
     .pd_tp_bm_300 {
         padding: 100px 0
     }
-    .img_title_div h1 {
+    .img_title_div h1, .img_title_div .text_div .des {
         padding-left: 20px
     }
     #contents .fnt_30,
@@ -1389,7 +1394,7 @@ body.open .nav .burger a span {
     .img_title_div>div>.des,
     .layout_div .li_1 .fnt_14,
     .layout_div, .img_title_div h1, .img_title_div>div>.des,
-    #img_title_2 h1, #img_title_4 h1, #img_title_5 h1 {
+    #img_title_2 h1, #img_title_4 h1, #img_title_5 h1, .img_title_div .text_div .des, {
         padding: 0 20px
     }
     .img_title_1.img_title_4,
@@ -1456,6 +1461,8 @@ body.open .nav .burger a span {
 }
 
 @media screen and (max-width:360px) {
+    .img_title_3_scroll .bnr { width: 152px; height: 299px; background-size: 151px; margin-left: -10px; }
+    .img_title_3_scroll .bnr_bg { margin-left: 10px; }
     #img_title_2 .scroll_div_2 ul li .lyt_img { height: 400px; background-size: 100%; }
 
 
