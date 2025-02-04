@@ -1351,7 +1351,7 @@ body.open .nav .burger a span {
     .fnt_div { height: 410px; }
     .mob_img { border-radius: 40px }
     .img_title_3_scroll .banner { border-radius: 40px 40px 30px 30px; }
-    .img_title_3_scroll .mob_btm { height: 65.6px; }
+    .img_title_3_scroll .mob_btm, .img_title_1_scroll .mob_btm { height: 65.6px; }
     .img_title_5_scroll .mob_btm { height: 72.6px; }
     .img_title_3_scroll .mob_img em { top: 202px; }
     .img_title_3_scroll .ext_6 .mob_img em { top: 174px;; margin-left: -20px }
@@ -1505,7 +1505,7 @@ body.open .nav .burger a span {
     .mob_img em.two { bottom: 58px;  margin-left:-20px }
     .mob_img em.three { top: 79px; margin-left:-20px }
 
-    .img_title_3_scroll .mob_btm { height: 61.6px; }
+    .img_title_3_scroll .mob_btm, .img_title_1_scroll .mob_btm  { height: 61.6px; }
     .img_title_5_scroll .mob_btm { height: 66.6px; }
     .img_title_3_scroll .mob_img em { top: 185px; }
     .img_title_3_scroll .ext_6 .mob_img em { top: 160px; }
