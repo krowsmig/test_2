@@ -270,8 +270,8 @@ var tl_4 = gsap.timeline();
 ScrollTrigger.create({
 	trigger: "#img_title_4 .scroll_div",
 	animation: tl_4,
-	start: "top 50%",
-	end: "top 30%",
+	start: "top 60%",
+	end: "top 10%",
 	ease: "power3.inOut",
 	
 	toggleAction: "restart none restart none",
