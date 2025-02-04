@@ -1,3 +1,5 @@
+/*.top_div h1 a, #footer p, header h1 a { text-transform: lowercase;}*/
+
 .ld_1 .ld_bg,
 .ld_3 .ld_bg,
 .ld_bg {
@@ -679,6 +681,7 @@ html.open #menu_div .menu_div { display: block; top: 55px; transform: skewY(0); 
 .dark #menu_div a.email:hover { background: #fff;}
 
 #menu_div ul > li.osz_li a { background-color:rgba(102,102,102,0.6); background-image: url("../images/main/img_osz.webp") }
+#menu_div ul > li.ltch_li a { background-color:rgba(102,102,102,0.6); background-image: url("../images/main/img_ltch.webp") }
 #menu_div ul > li.jndk_li a { background-color:rgba(167,167,167,0.6); background-image: url("../images/main/img_jndk.webp") }
 #menu_div ul > li.hdwk_li a { background-color:rgba(102,105,109,0.6); background-image: url("../images/main/img_hdwk.webp") }
 #menu_div ul > li.hd_li a { background-color:rgba(191,196,199,0.6); background-image: url("../images/main/img_hd.webp") }
