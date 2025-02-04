@@ -94,7 +94,7 @@ ScrollTrigger.create({
 	// end: "bottom bottom",
 	toggleAction: "restart none none none",
 	scrub: true,
-	snap: true,
+	// snap: true,
 
 });
 
