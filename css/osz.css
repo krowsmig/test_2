@@ -1384,7 +1384,7 @@ body.open .nav .burger a span {
     .pd_tp_bm_300 {
         padding: 100px 0
     }
-    .img_title_div h1, .img_title_div .text_div .des {
+    .img_title_div h1, .img_title_div .text_div .des, .img_title_div > div > .des {
         padding-left: 20px
     }
     #contents .fnt_30,
