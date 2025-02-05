@@ -44,14 +44,14 @@
 
 
 #img_title_3 .pd_tp_bm_300 { padding-bottom: 0 }
-.img_title_3_scroll { height: 1100vh }
+.img_title_3_scroll { height: 1800vh }
 .img_title_3_scroll .ext_1 { height: 100vh }
 .img_title_3_scroll .ext_2 { height: 100vh }
 .img_title_3_scroll .ext_3 { height: 100vh }
-.img_title_3_scroll .ext_4 { height: 100vh }
+.img_title_3_scroll .ext_4 { height: 400vh }
 .img_title_3_scroll .ext_5 { height: 100vh }
 .img_title_3_scroll .ext_6 { height: 100vh }
-.img_title_3_scroll .ext_7 { height: 100vh }
+.img_title_3_scroll .ext_7 { height: 500vh }
 .img_title_3_scroll .ext_8 { height: 100vh }
 .img_title_3_scroll .pos_ab { transform: translateY(0) scale(1.0); }
 .img_title_3_scroll .pos_rel { width:100vw;  }
@@ -109,8 +109,8 @@
 #img_title_4 .layout_div .cont_div li p span { display:block; margin-top: 15px; font-size: 14px; color: #b8b8b8; }
 
 
-.img_title_5_scroll { height: 1300vh }
-.img_title_5_scroll .ext_4 { height: 800vh }
+.img_title_5_scroll { height: 1800vh }
+.img_title_5_scroll .ext_4 { height: 1300vh }
 .img_title_5_scroll .mob_img { height: 100%; z-index: 2; background-image:url("../images/osz/pro_mob.webp") }
 .img_title_5_scroll .mob_img.mob_img_1 { height: 100%; opacity: 0; border:0 none; border-radius: 0; z-index: 2; background-image:url("../images/osz/pro_mob_full.webp"); background-position: 0% 0% }
 .img_title_5_scroll .mob_btm { opacity: 0; height: 79.6px; bottom: 0; z-index: 6; background-image:url("../images/osz/pro_btm_1.webp"); backdrop-filter: blur(10px); border-radius: 30px; overflow: hidden; }
