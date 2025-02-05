@@ -295,7 +295,7 @@ ScrollTrigger.create({
 	start: "top top",
 	toggleAction: "restart none none none",
 	ease: "power3.inOut",
-	scrub: true,
+	scrub: .2,
 
 });
 
@@ -350,7 +350,7 @@ ScrollTrigger.create({
 	start: "top top",
 	toggleAction: "restart none none none",
 	ease: "power3.inOut",
-	scrub: true,
+	scrub: .2,
 
 });
 
@@ -477,7 +477,7 @@ ScrollTrigger.create({
 	start: "top top",
 	toggleAction: "restart none none none",
 	ease: "power3.inOut",
-	scrub: true,
+	scrub: .2,
 
 });
 
