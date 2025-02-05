@@ -25,7 +25,7 @@ var tl_tab_0 = gsap.timeline();
 ScrollTrigger.create({
 	trigger: "#img_title_1",
 	animation: tl_tab_0,
-	start: "top top",
+	start: "top 10px",
 	end: "top 100px",
 	ease: "power3.inOut",
 	toggleAction: "restart none none reverse",
@@ -43,7 +43,7 @@ var tl_tab_1 = gsap.timeline();
 ScrollTrigger.create({
 	trigger: "#img_title_2",
 	animation: tl_tab_1,
-	start: "top top",
+	start: "top 10px",
 	end: "top 100px",
 	ease: "power3.inOut",
 	toggleAction: "restart none none reverse",
@@ -62,7 +62,7 @@ var tl_tab_2 = gsap.timeline();
 ScrollTrigger.create({
 	trigger: "#img_title_3",
 	animation: tl_tab_2,
-	start: "top top",
+	start: "top 10px",
 	end: "top 100px",
 	ease: "power3.inOut",
 	toggleAction: "restart none none reverse",
@@ -80,7 +80,7 @@ var tl_tab_3 = gsap.timeline();
 ScrollTrigger.create({
 	trigger: "#img_title_4",
 	animation: tl_tab_3,
-	start: "top top",
+	start: "top 10px",
 	end: "top 100px",
 	ease: "power3.inOut",
 	toggleAction: "restart none none reverse",
@@ -98,7 +98,7 @@ var tl_tab_4 = gsap.timeline();
 ScrollTrigger.create({
 	trigger: "#img_title_5",
 	animation: tl_tab_4,
-	start: "top top",
+	start: "top 10px",
 	end: "top 100px",
 	ease: "power3.inOut",
 	toggleAction: "restart none none reverse",
