@@ -14,9 +14,105 @@ ScrollTrigger.matchMedia({
 });
 
 
+// tab
+
+var tl_tab_0 = gsap.timeline();
+	tl_tab_0.to(".tab_div .tab_2", { color: "#000000" });
+	tl_tab_0.to(".tab_div .tab_bg", { opacity:1, left: "3px" });
+	tl_tab_0.to(".tab_div .tab_1", { color: "#ffffff" });
+	
+
+ScrollTrigger.create({
+	trigger: "#img_title_1",
+	animation: tl_tab_0,
+	start: "top top",
+	end: "top 100px",
+	ease: "power3.inOut",
+	toggleAction: "restart none none reverse",
+	immediateRender: false,
+	scrub: true,
+
+});
+
+var tl_tab_1 = gsap.timeline();
+	tl_tab_1.to(".tab_div .tab_1", { color: "#000000" });
+	tl_tab_1.to(".tab_div .tab_bg", { left: "86px" });
+	tl_tab_1.to(".tab_div .tab_2", { color: "#ffffff" });
+	
+
+ScrollTrigger.create({
+	trigger: "#img_title_2",
+	animation: tl_tab_1,
+	start: "top top",
+	end: "top 100px",
+	ease: "power3.inOut",
+	toggleAction: "restart none none reverse",
+	immediateRender: false,
+	scrub: true,
+
+});
+
+
+var tl_tab_2 = gsap.timeline();
+	tl_tab_2.to(".tab_div .tab_2", { color: "#000000" });
+	tl_tab_2.to(".tab_div .tab_bg", { left: "170px" });
+	tl_tab_2.to(".tab_div .tab_3", { color: "#ffffff" });
+	
+
+ScrollTrigger.create({
+	trigger: "#img_title_3",
+	animation: tl_tab_2,
+	start: "top top",
+	end: "top 100px",
+	ease: "power3.inOut",
+	toggleAction: "restart none none reverse",
+	immediateRender: false,
+	scrub: true,
+
+});
+
+var tl_tab_3 = gsap.timeline();
+	tl_tab_3.to(".tab_div .tab_3", { color: "#000000" });
+	tl_tab_3.to(".tab_div .tab_bg", { left: "253px" });
+	tl_tab_3.to(".tab_div .tab_4", { color: "#ffffff" });
+	
+
+ScrollTrigger.create({
+	trigger: "#img_title_4",
+	animation: tl_tab_3,
+	start: "top top",
+	end: "top 100px",
+	ease: "power3.inOut",
+	toggleAction: "restart none none reverse",
+	immediateRender: false,
+	scrub: true,
+
+});
+
+var tl_tab_4 = gsap.timeline();
+	tl_tab_4.to(".tab_div .tab_4", { color: "#000000" });
+	tl_tab_4.to(".tab_div .tab_bg", { left: "336px" });
+	tl_tab_4.to(".tab_div .tab_5", { color: "#ffffff" });
+	
+
+ScrollTrigger.create({
+	trigger: "#img_title_5",
+	animation: tl_tab_4,
+	start: "top top",
+	end: "top 100px",
+	ease: "power3.inOut",
+	toggleAction: "restart none none reverse",
+	immediateRender: false,
+	scrub: true,
+
+});
 
 
 
+
+
+
+// title_1_scroll
 
 ScrollTrigger.create({
 	trigger: ".img_title_1_scroll",
@@ -52,6 +148,7 @@ ScrollTrigger.create({
 	trigger: ".img_title_1_scroll .ext_1",
 	animation: tl_1_1,
 	start: "top top",
+	end: "bottom bottom",
 	toggleAction: "restart none none none",
 	ease: "power3.inOut",
 	scrub: true,
@@ -273,7 +370,7 @@ ScrollTrigger.create({
 	start: "top 60%",
 	end: "top 10%",
 	ease: "power3.inOut",
-	
+	// markers: true,
 	toggleAction: "restart none restart none",
 	scrub: true,
 	// snap: true,
