@@ -404,6 +404,7 @@ html.open .burger a {
 }
 .in_li p {
     font-weight: 600;
+
 }
 html.open .burger {
     display: block;
@@ -964,9 +965,6 @@ html.open #menu_div .menu_div { display: block; top: 55px; transform: skewY(0); 
     .top_btn_f {
         background-color: rgba(0, 0, 0, 0.9);
     }
-    .open #gnb {
-/*        background-color: #fff !important;*/
-    }
     .right a {
         padding: 0;
         border: 0;
@@ -1064,10 +1062,12 @@ html.open #menu_div .menu_div { display: block; top: 55px; transform: skewY(0); 
         right: 10px;
         bottom: 30px;
     }
+
+
+    .in_li p:last-child { margin-right:0 }
 }
 
 @media screen and (max-width: 660px) {
-/*    #main .main_bg p, #main .main_bg p span { font-size: 23px }*/
     #main .main .main_img { background-size: 1000px; background-position:center 50px }
 
 }
@@ -1131,16 +1131,14 @@ html.open #menu_div .menu_div { display: block; top: 55px; transform: skewY(0); 
     }
     #main .quick_div ul li:last-child {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 0;
     }
     .in_li p {
         width: 100%;
         margin: 0 0 20px;
     }
     .two .in_li p {
-        width: auto;
         margin-right: 20px;
-        margin-bottom: 0;
     }
     .top_btn.add_top {
         right: 20px;
@@ -1211,7 +1209,10 @@ html.open #menu_div .menu_div { display: block; top: 55px; transform: skewY(0); 
     #main .main_bg p span { padding: 0 10px }
     #main .main_bg p span:first-child { padding-left: 20px }
     #main .main_bg p span:last-child { padding-right: 20px }
-
+    
+    #main .quick_div ul li { width: 50% !important; float: left; min-height: 110px; }
+    #main .quick_div.two ul li.in_li { margin-top: 0; }
+    .in_li p:last-child { margin-right: 50px }
 
 }
 
@@ -1245,12 +1246,6 @@ html.open #menu_div .menu_div { display: block; top: 55px; transform: skewY(0); 
     }
     #main .quick_div.two .summary_ul li .title {
         margin-bottom: 25px !important;
-    }
-    #main .quick_div.two .in_li p {
-        display: inline-block;
-        width: auto !important;
-        margin-right: 20px;
-        margin-bottom: 0;
     }
     #main .quick_div.two ul li:last-child span {
         margin-top: 0;
