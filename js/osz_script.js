@@ -150,7 +150,7 @@ ScrollTrigger.create({
 	start: "top top",
 	toggleAction: "restart none none none",
 	ease: "power3.inOut",
-	scrub: true,
+	scrub: .5,
 	snap: true,
 
 });
@@ -174,7 +174,7 @@ ScrollTrigger.create({
 	start: "top top",
 	ease: "power3.inOut",
 	toggleAction: "restart none none none",
-	scrub: .5,
+	scrub: .2,
 
 });
 
@@ -189,7 +189,7 @@ ScrollTrigger.create({
 	ease: "power3.inOut",
 	// end: "bottom bottom",
 	toggleAction: "restart none none none",
-	scrub: .5,
+	scrub: .2,
 	// snap: true,
 
 });
@@ -207,8 +207,8 @@ ScrollTrigger.create({
 	animation: tl_3_1,
 	start: "top top",
 	toggleAction: "restart none none none",
-	ease: "power3.inOut",
-	scrub: true,
+	// ease: "power3.inOut",
+	scrub: .5,
 	snap: .5,
 });
 
@@ -232,7 +232,7 @@ ScrollTrigger.create({
 
 
 var tl_3_2 = gsap.timeline();
-	tl_3_2.to(".img_title_3_scroll .ext_2_1 .mob_img", { backgroundPosition: "0% 100%", duration:1.3,});
+	tl_3_2.to(".img_title_3_scroll .ext_2_1 .mob_img", { backgroundPosition: "0% 100%" });
 	
 ScrollTrigger.create({
 	trigger: ".img_title_3_scroll .ext_2_1",
@@ -241,8 +241,8 @@ ScrollTrigger.create({
 	animation: tl_3_2,
 	start: "top top",
 	toggleAction: "restart none none none",
-	ease: "ease",
-	scrub: true,
+	//ease: "ease",
+	scrub: .5,
 	snap: true,
 
 });
@@ -285,7 +285,7 @@ ScrollTrigger.create({
 });
 
 var tl_3_4 = gsap.timeline();
-	tl_3_4.to(".img_title_3_scroll .ext_3 .mob_img_3_3", { backgroundPosition: "0% 100%", duration:1.3,});
+	tl_3_4.to(".img_title_3_scroll .ext_3 .mob_img_3_3", { backgroundPosition: "0% 100%" });
 	
 ScrollTrigger.create({
 	trigger: ".img_title_3_scroll .ext_4",
@@ -294,7 +294,7 @@ ScrollTrigger.create({
 	animation: tl_3_4,
 	start: "top top",
 	toggleAction: "restart none none none",
-	ease: "power3.inOut",
+	// ease: "power3.inOut",
 	scrub: .2,
 
 });
@@ -338,7 +338,7 @@ ScrollTrigger.create({
 
 });
 var tl_3_7 = gsap.timeline();
-	tl_3_7.to(".img_title_3_scroll .ext_6 .mob_img_4_1", { backgroundPosition: "0% 100%", duration:1.3,});
+	tl_3_7.to(".img_title_3_scroll .ext_6 .mob_img_4_1", { backgroundPosition: "0% 100%" });
 
 
 	
@@ -349,7 +349,7 @@ ScrollTrigger.create({
 	animation: tl_3_7,
 	start: "top top",
 	toggleAction: "restart none none none",
-	ease: "power3.inOut",
+	// ease: "power3.inOut",
 	scrub: .2,
 
 });
@@ -401,7 +401,7 @@ ScrollTrigger.create({
 	animation: tl_5,
 	start: "top 30%",
 	ease: "power3.inOut",
-	scrub: true,
+	scrub: .5,
 	snap: true,
 
 });
@@ -467,7 +467,7 @@ ScrollTrigger.create({
 });
 
 var tl_5_4 = gsap.timeline();
-	tl_5_4.to(".img_title_5_scroll .mob_img.mob_img_1", { backgroundPosition: "0% 100%", duration:1.3,});
+	tl_5_4.to(".img_title_5_scroll .mob_img.mob_img_1", { backgroundPosition: "0% 100%" });
 
 	
 ScrollTrigger.create({
@@ -476,7 +476,7 @@ ScrollTrigger.create({
 	animation: tl_5_4,
 	start: "top top",
 	toggleAction: "restart none none none",
-	ease: "power3.inOut",
+	//ease: "power3.inOut",
 	scrub: .2,
 
 });
