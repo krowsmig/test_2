@@ -92,14 +92,9 @@ ScrollTrigger.create({
 	trigger: ".ext_4",
 	animation: tl_4,
 	start: "top top",
-	// end: "+=1000",
-	// duration:500,
-	// ease: "power3.inOut",
-	scrub: true,
-	// snap: true,
+	scrub: .5,
 	snap: {
 		snapTo: 1/4,
-		// delay: 1,
 		duration:4,
 		ease: "power1.inOut"
 	},
