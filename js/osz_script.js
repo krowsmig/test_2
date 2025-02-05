@@ -174,7 +174,7 @@ ScrollTrigger.create({
 	start: "top top",
 	ease: "power3.inOut",
 	toggleAction: "restart none none none",
-	scrub: true,
+	scrub: .5,
 
 });
 
@@ -189,7 +189,7 @@ ScrollTrigger.create({
 	ease: "power3.inOut",
 	// end: "bottom bottom",
 	toggleAction: "restart none none none",
-	scrub: true,
+	scrub: .5,
 	// snap: true,
 
 });
