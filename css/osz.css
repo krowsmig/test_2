@@ -109,8 +109,8 @@
 #img_title_4 .layout_div .cont_div li p span { display:block; margin-top: 15px; font-size: 14px; color: #b8b8b8; }
 
 
-.img_title_5_scroll { height: 900vh }
-.img_title_5_scroll .ext_4 { height: 400vh }
+.img_title_5_scroll { height: 1300vh }
+.img_title_5_scroll .ext_4 { height: 800vh }
 .img_title_5_scroll .mob_img { height: 100%; z-index: 2; background-image:url("../images/osz/pro_mob.webp") }
 .img_title_5_scroll .mob_img.mob_img_1 { height: 100%; opacity: 0; border:0 none; border-radius: 0; z-index: 2; background-image:url("../images/osz/pro_mob_full.webp"); background-position: 0% 0% }
 .img_title_5_scroll .mob_btm { opacity: 0; height: 79.6px; bottom: 0; z-index: 6; background-image:url("../images/osz/pro_btm_1.webp"); backdrop-filter: blur(10px); border-radius: 30px; overflow: hidden; }
