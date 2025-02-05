@@ -371,7 +371,7 @@ ScrollTrigger.create({
 	ease: "power3.inOut",
 	// markers: true,
 	toggleAction: "restart none restart none",
-	scrub: true,
+	scrub: .5,
 	// snap: true,
 
 });
