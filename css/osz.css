@@ -44,14 +44,14 @@
 
 
 #img_title_3 .pd_tp_bm_300 { padding-bottom: 0 }
-.img_title_3_scroll { height: 1800vh }
+.img_title_3_scroll { height: 1600vh }
 .img_title_3_scroll .ext_1 { height: 100vh }
 .img_title_3_scroll .ext_2 { height: 100vh }
 .img_title_3_scroll .ext_3 { height: 100vh }
-.img_title_3_scroll .ext_4 { height: 400vh }
+.img_title_3_scroll .ext_4 { height: 300vh }
 .img_title_3_scroll .ext_5 { height: 100vh }
 .img_title_3_scroll .ext_6 { height: 100vh }
-.img_title_3_scroll .ext_7 { height: 500vh }
+.img_title_3_scroll .ext_7 { height: 400vh }
 .img_title_3_scroll .ext_8 { height: 100vh }
 .img_title_3_scroll .pos_ab { transform: translateY(0) scale(1.0); }
 .img_title_3_scroll .pos_rel { width:100vw;  }
