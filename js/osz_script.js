@@ -148,7 +148,6 @@ ScrollTrigger.create({
 	trigger: ".img_title_1_scroll .ext_1",
 	animation: tl_1_1,
 	start: "top top",
-	end: "bottom bottom",
 	toggleAction: "restart none none none",
 	ease: "power3.inOut",
 	scrub: true,
